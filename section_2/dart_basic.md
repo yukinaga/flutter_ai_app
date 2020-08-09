@@ -13,7 +13,7 @@
 2-2. クラス: https://dartpad.dev/b6ea7ae881fbeede300e0011fec6efd4  
 2-3. クラスの継承: https://dartpad.dev/d7efcc2699dda2f44149fb67c3730a77  
 2-4. ミックスイン: https://gist.github.com/yukinaga/95cff2ee1109264da4ed1deac7707300  
-2-5. Abstractクラス  
+2-5. Abstractクラス: https://gist.github.com/4d394c7b038e3ce1a9aa87ea3c1f183c  
 2-6. 暗黙的インターフェイス  
   
 演習2:  
