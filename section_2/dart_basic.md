@@ -16,8 +16,8 @@
 2-5. Abstractクラス: https://dartpad.dev/4d394c7b038e3ce1a9aa87ea3c1f183c  
 2-6. 暗黙的インターフェイス: https://dartpad.dev/3dfbb272d9d5ab0957a72a2e38808717  
   
-演習2:  
-演習2の解答例:  
+演習2: https://dartpad.dev/5104ce8c45c46b672a1c024f2d24e539  
+演習2の解答例: https://dartpad.dev/5e0cfb8ffbe92ad59b84b81d99f2264e  
   
 ## Dartの基礎3  
 3-1. ジェネリクス:  
