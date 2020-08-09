@@ -10,7 +10,7 @@
   
 ## Dartの基礎2
 2-1. 関数: https://dartpad.dev/a06a31dc9fb4ae014157fea8fe6eda80   
-2-2. クラス:  
+2-2. クラス: https://dartpad.dev/b6ea7ae881fbeede300e0011fec6efd4  
 2-3. クラスの継承:  
 2-4. ミックスイン:  
 2-5. Abstractクラス  
