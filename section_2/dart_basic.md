@@ -9,7 +9,7 @@
 演習1の解答例: https://dartpad.dev/92cc8b8372c1fd932f252fffeb5be2e9  
   
 ## Dartの基礎2
-2-1. 関数:   
+2-1. 関数: https://dartpad.dev/a06a31dc9fb4ae014157fea8fe6eda80   
 2-2. クラス:  
 2-3. クラスの継承:  
 2-4. ミックスイン:  
