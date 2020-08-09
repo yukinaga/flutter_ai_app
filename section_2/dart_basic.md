@@ -12,7 +12,7 @@
 2-1. 関数: https://dartpad.dev/a06a31dc9fb4ae014157fea8fe6eda80   
 2-2. クラス: https://dartpad.dev/b6ea7ae881fbeede300e0011fec6efd4  
 2-3. クラスの継承: https://dartpad.dev/d7efcc2699dda2f44149fb67c3730a77  
-2-4. ミックスイン:  
+2-4. ミックスイン: https://gist.github.com/yukinaga/95cff2ee1109264da4ed1deac7707300  
 2-5. Abstractクラス  
 2-6. 暗黙的インターフェイス  
   
@@ -20,10 +20,10 @@
 演習2の解答例:  
   
 ## Dartの基礎3  
-3-1. Enum:  
-3-2. ライブラリの使い方:  
-3-3. Async:  
-3-4. 例外処理:  
+3-1. ジェネリクス:  
+3-2. 例外処理:  
+3-3. Enum:  
+3-4. Async:  
   
 演習3:  
 演習3の解答例:  
