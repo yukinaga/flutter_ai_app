@@ -14,7 +14,7 @@
 2-3. クラスの継承: https://dartpad.dev/d7efcc2699dda2f44149fb67c3730a77  
 2-4. ミックスイン: https://dartpad.dev/95cff2ee1109264da4ed1deac7707300  
 2-5. Abstractクラス: https://dartpad.dev/4d394c7b038e3ce1a9aa87ea3c1f183c  
-2-6. 暗黙的インターフェイス  
+2-6. 暗黙的インターフェイス: https://dartpad.dev/3dfbb272d9d5ab0957a72a2e38808717  
   
 演習2:  
 演習2の解答例:  
