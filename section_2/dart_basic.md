@@ -23,7 +23,7 @@
 3-1. ジェネリクス: https://dartpad.dev/85e193160dccc4329a197c62b308972b  
 3-2. 例外処理: https://dartpad.dev/05f05d82153aad3a0f9c39028ab7e287  
 3-3. Enum: https://dartpad.dev/12efcb856203f97e569d45529735de1f  
-3-4. 非同期処理:  
+3-4. 非同期処理: https://dartpad.dev/64ad0c8d1133294fb7b1967220a45d88  
   
 演習3:  
 演習3の解答例:  
