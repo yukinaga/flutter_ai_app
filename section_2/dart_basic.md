@@ -20,7 +20,7 @@
 演習2の解答例: https://dartpad.dev/5e0cfb8ffbe92ad59b84b81d99f2264e  
   
 ## Dartの基礎3  
-3-1. ジェネリクス:  
+3-1. ジェネリクス: https://dartpad.dev/85e193160dccc4329a197c62b308972b  
 3-2. 例外処理:  
 3-3. Enum:  
 3-4. Async:  
