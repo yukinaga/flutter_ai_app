@@ -21,7 +21,6 @@ class RandomWords extends StatefulWidget {
 // 最初に表示するWidgetのクラス
 class MyApp extends StatelessWidget {  // StatelessWidgetを継承
   @override
-  final wordPair = WordPair.random();  // ランダムな英単語のペア
   Widget build(BuildContext context) {  //buildメソッドでUIを作成
     return MaterialApp(  // マテリアルデザインのアプリ
       title: "My Simple App",  // アプリのタイトル
