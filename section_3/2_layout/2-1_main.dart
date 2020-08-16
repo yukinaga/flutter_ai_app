@@ -1,3 +1,5 @@
+/* 2-1. Container */
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp()); // 引数のWidgetが画面いっぱいに表示される
