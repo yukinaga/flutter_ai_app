@@ -47,7 +47,7 @@ class _ChangeFormState extends State<ChangeForm> {
                   fontSize: 30.0,
               ),
             ),
-            new TextField(  // テキストを表示
+            TextField(  // テキストを表示
               style: TextStyle(color: Colors.red),
               onChanged: _handleText,
             ),
