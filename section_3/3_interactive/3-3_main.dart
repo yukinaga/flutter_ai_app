@@ -41,13 +41,13 @@ class _ChangeFormState extends State<ChangeForm> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Center(
-              child: new Icon(
+              child: Icon(
                 Icons.thumb_up,
                 color: _active ? Colors.orange : Colors.grey,
                 size: 100.0,
               ),
             ),
-            new Switch(  // スイッチ
+            Switch(  // スイッチ
               value: _active,
               onChanged: _changeSwitch,
             )
