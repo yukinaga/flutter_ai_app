@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: "My Simple App",
       home: Container(
         child: Row(  // 行
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,  // 中央に配置（他にstart、end、spaceAroundなど）
           children: <Widget>[
             Column(  // 列
               mainAxisAlignment: MainAxisAlignment.center,  // 中央に配置
