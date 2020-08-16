@@ -47,7 +47,7 @@ class _ChangeFormState extends State<ChangeForm> {
                   fontSize: 30.0,
               ),
             ),
-            FlatButton(
+            FlatButton(  // 一番シンプルなボタン
               onPressed: _handlePressed,
               color: Colors.blue,
               child: Text(
