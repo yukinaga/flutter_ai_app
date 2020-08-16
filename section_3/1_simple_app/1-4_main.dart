@@ -7,7 +7,7 @@ void main() => runApp(MyApp()); // 引数のWidgetが画面いっぱいに表示
 
 // 状態を管理するクラスは、Stateクラスを継承
 class RandomWordsState extends State<RandomWords> {
-  // _を付けると外からアクセスできなくなる
+  // _を付けるとライブラリ外からアクセスできなくなる
   // ListViewのWidgetを作るメソッド
   Widget _buildSuggestions() {
     final _wordPairs = <WordPair>[];  // 単語のペアを格納するリスト
