@@ -1,3 +1,5 @@
+/* 1-2. 外部パッケージの導入 */
+
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
