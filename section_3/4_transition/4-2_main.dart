@@ -21,9 +21,9 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
 
   final _tab = <Tab> [  // タブバーの表示
-    Tab( text:"Car", icon: Icon(Icons.directions_car)),
-    Tab( text:"Bicycle", icon: Icon(Icons.directions_bike)),
-    Tab( text:"Boat", icon: Icon(Icons.directions_boat)),
+    Tab( text:"Railway", icon: Icon(Icons.directions_railway)),
+    Tab( text:"Subway", icon: Icon(Icons.directions_subway)),
+    Tab( text:"Walk", icon: Icon(Icons.directions_walk)),
   ];
 
   Widget build(BuildContext context) {
@@ -38,9 +38,9 @@ class _MainPageState extends State<MainPage> {
         ),
         body: TabBarView(  // 表示画面のウィジェット一覧を渡す
             children: <Widget> [
-              TabPage(title: "Car", icon: Icons.directions_car),
-              TabPage(title: "Bicycle", icon: Icons.directions_bike),
-              TabPage(title: "Boat", icon: Icons.directions_boat),
+              TabPage(title: "Railway", icon: Icons.directions_railway),
+              TabPage(title: "Subway", icon: Icons.directions_subway),
+              TabPage(title: "Walk", icon: Icons.directions_walk),
             ]
         ),
       ),
@@ -62,7 +62,7 @@ class TabPage extends StatelessWidget {
       child:Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Icon(icon, size: 64.0, color: textStyle.color),
+          Icon(icon, size: 72.0, color: textStyle.color),
           Text(title, style: textStyle),
         ],
       ),
