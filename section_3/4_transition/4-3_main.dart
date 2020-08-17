@@ -29,17 +29,21 @@ class _MainPageState extends State<MainPage> {
         child: ListView(
           children: <Widget>[
             DrawerHeader(
-              child: Text("Drawer Header"),
+              child: Text("ヘッダーです。"),
               decoration: BoxDecoration(  // Boxによる装飾
                 color: Colors.blue,
               ),
             ),
             ListTile(
-              title: Text("Item 1"),
+              title: Text("アイテムその1"),
               trailing: Icon(Icons.arrow_forward),
             ),
             ListTile(
-              title: Text("Item 2"),
+              title: Text("アイテムその2"),
+              trailing: Icon(Icons.arrow_forward),
+            ),
+            ListTile(
+              title: Text("アイテムその3"),
               trailing: Icon(Icons.arrow_forward),
             ),
           ],
