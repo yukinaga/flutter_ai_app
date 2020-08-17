@@ -14,19 +14,19 @@ class MyApp extends StatelessWidget {
           title: Text("Live!人工知能"),
         ),
         body: Center(
-          child: ChangeForm(),
+          child: MyForm(),
         ),
       ),
     );
   }
 }
 
-class ChangeForm extends StatefulWidget {
+class MyForm extends StatefulWidget {
   @override
-  _ChangeFormState createState() => _ChangeFormState();
+  _MyFormState createState() => _MyFormState();
 }
 
-class _ChangeFormState extends State<ChangeForm> {
+class _MyFormState extends State<MyForm> {
   double _value = 0.0;
 
   void _changeSlider(double e) {
