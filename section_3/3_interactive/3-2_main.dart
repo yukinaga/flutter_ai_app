@@ -14,19 +14,19 @@ class MyApp extends StatelessWidget {
           title: Text("Live!人工知能"),
         ),
         body: Center(
-          child: ChangeForm(),
+          child: MyForm(),
         ),
       ),
     );
   }
 }
 
-class ChangeForm extends StatefulWidget {
+class MyForm extends StatefulWidget {
   @override
-  _ChangeFormState createState() => _ChangeFormState();
+  _MyFormState createState() => _MyFormState();
 }
 
-class _ChangeFormState extends State<ChangeForm> {
+class _MyFormState extends State<MyForm> {
   String _text = '';
 
   void _handleText(String e) {
@@ -43,8 +43,8 @@ class _ChangeFormState extends State<ChangeForm> {
             Text(
               "$_text",
               style: TextStyle(
-                  color:Colors.blueAccent,
-                  fontSize: 30.0,
+                color:Colors.blueAccent,
+                fontSize: 30.0,
               ),
             ),
             TextField(  // テキストを表示
