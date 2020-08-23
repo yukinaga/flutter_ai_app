@@ -44,12 +44,12 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Widget _buildList(List<DocumentSnapshot> snap_list) {
+  Widget _buildList(List<DocumentSnapshot> snapList) {
     return ListView.builder(
         padding: const EdgeInsets.all(18.0),
-        itemCount: snap_list.length,
+        itemCount: snapList.length,
         itemBuilder: (context, i) {
-          return _buildListItem(snap_list[i]);
+          return _buildListItem(snapList[i]);
         }
     );
   }
