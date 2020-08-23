@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 final dummyData = [
-  {"name": "Pochi", "votes": 1},
-  {"name": "Taro", "votes": 4},
-  {"name": "Jiro", "votes": 2},
+  {"name": "Pochi", "votes": 0},
+  {"name": "Taro", "votes": 0},
+  {"name": "Jiro", "votes": 0},
   {"name": "Shiro", "votes": 0},
-  {"name": "Hachi", "votes": 3},
+  {"name": "Hachi", "votes": 0},
 ];
 
 void main()  async{
