@@ -8,7 +8,7 @@ final dummyData = [
   {"name": "Hachi", "votes": 0},
 ];
 
-void main()  async{
+void main() {
   runApp(MyApp());
 }
 
