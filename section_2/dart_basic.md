@@ -46,7 +46,7 @@
 演習2の解答例: https://dartpad.dev/063b9ca1501cac6f58579b23a0185123
 
 ## Dartの基礎3
-3-1. ジェネリクス: https://dartpad.dev/7d34a809831cee00a1a7f15716827cef　　
+3-1. ジェネリクス: https://dartpad.dev/7d34a809831cee00a1a7f15716827cef　
 3-2. 例外処理: https://dartpad.dev/187f48422ed8e658a831ae4e67f3d173　　
 3-3. Enum: https://dartpad.dev/cfc6555a570a22394020e03d46f4c19f　　
 3-4. 非同期処理: https://dartpad.dev/aa9a88ee331ed20feac08692dd1717e5　　
