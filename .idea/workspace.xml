@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64ea7178-345d-45bf-b0cc-2fb622659799" name="Default Changelist" comment="" />
+    <list default="true" id="64ea7178-345d-45bf-b0cc-2fb622659799" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_2/dart_basic.md" beforeDir="false" afterPath="$PROJECT_DIR$/section_2/dart_basic.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,5 +36,11 @@
       <updated>1623052719607</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="307" y="210" key="IDE.errors.dialog" timestamp="1623056383279">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="307" y="210" key="IDE.errors.dialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1623056383279" />
   </component>
 </project>
