@@ -6,7 +6,7 @@
 1-5. ループ: https://dartpad.dev/03834e6e38f18856e53a3e4311eae5a0  
   
 演習1: https://dartpad.dev/a88b8809911267a708c5e1cffc70551d  
-演習1の解答例: https://dartpad.dev/92cc8b8372c1fd932f252fffeb5be2e9  
+演習1の解答例: https://dartpad.dev/92cc8b8372c1fd932f252fffeb5be2e9
   
 ## Dartの基礎2
 2-1. 関数: https://dartpad.dev/a06a31dc9fb4ae014157fea8fe6eda80   
@@ -27,3 +27,17 @@
   
 演習3: https://dartpad.dev/b7083656b4107310c1a66ee111af0d7f  
 演習3の解答例: https://dartpad.dev/bf5679b61b1a168d3a7ff668e8385e22   
+
+## null-safet対応版
+## Dartの基礎1（null safety対応版）※変更があるもののみ
+1-4. リスト、Set、Map: https://dartpad.dartlang.org/89679f169bcf0ff4fc4d82220c984d34
+
+## Dartの基礎2
+2-1. 関数: https://dartpad.dev/38278c3c478d6d7ec7cac9aa445211d2
+2-2. クラス: https://dartpad.dev/94015ff5b1a977097e737f36ec0f324a
+2-3. クラスの継承: https://dartpad.dev/2039c79258446241873f76d851faeaea
+2-4. ミックスイン: https://dartpad.dev/fbfbfa4a476eedb23f7c97e05c0ecfca
+2-5. Abstractクラス: https://dartpad.dev/6dfbf219d6a557bbf8c0d420f0533b25
+2-6. 暗黙的インターフェイス: https://dartpad.dev/2f55cf3c948da7d1fdbb61c1eb331bcc
+
+演習2の解答例: https://dartpad.dev/063b9ca1501cac6f58579b23a0185123
