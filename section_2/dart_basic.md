@@ -36,14 +36,20 @@
 1-4. リスト、Set、Map: https://dartpad.dartlang.org/89679f169bcf0ff4fc4d82220c984d34　　
 
 ## Dartの基礎2
-2-1. 関数: https://dartpad.dev/38278c3c478d6d7ec7cac9aa445211d2  
-2-2. クラス: https://dartpad.dev/94015ff5b1a977097e737f36ec0f324a  　　
-2-3. クラスの継承: https://dartpad.dev/2039c79258446241873f76d851faeaea  　　
-2-4. ミックスイン: https://dartpad.dev/fbfbfa4a476eedb23f7c97e05c0ecfca  　
-2-5. Abstractクラス: https://dartpad.dev/6dfbf219d6a557bbf8c0d420f0533b25  　　
-2-6. 暗黙的インターフェイス: https://dartpad.dev/2f55cf3c948da7d1fdbb61c1eb331bcc  
+2-1. 関数: https://dartpad.dev/38278c3c478d6d7ec7cac9aa445211d2
+<br>
+2-2. クラス: https://dartpad.dev/94015ff5b1a977097e737f36ec0f324a
+<br>
+2-3. クラスの継承: https://dartpad.dev/2039c79258446241873f76d851faeaea
+<br>
+2-4. ミックスイン: https://dartpad.dev/fbfbfa4a476eedb23f7c97e05c0ecfca
+<br>
+2-5. Abstractクラス: https://dartpad.dev/6dfbf219d6a557bbf8c0d420f0533b25
+<br>
+2-6. 暗黙的インターフェイス: https://dartpad.dev/2f55cf3c948da7d1fdbb61c1eb331bcc
+<br>
+演習2の解答例: https://dartpad.dev/063b9ca1501cac6f58579b23a0185123
 
-演習2の解答例: https://dartpad.dev/063b9ca1501cac6f58579b23a0185123  
 
 ## Dartの基礎3
 3-1. ジェネリクス: https://dartpad.dev/7d34a809831cee00a1a7f15716827cef  
