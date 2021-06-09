@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64ea7178-345d-45bf-b0cc-2fb622659799" name="Default Changelist" comment="" />
+    <list default="true" id="64ea7178-345d-45bf-b0cc-2fb622659799" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +37,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="183" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623227003356">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="183" y="122" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1623227003356" />
     <state x="307" y="210" key="IDE.errors.dialog" timestamp="1623056383279">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="307" y="210" key="IDE.errors.dialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1623056383279" />
+    <state x="260" y="146" key="new project wizard" timestamp="1623227062554">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="260" y="146" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1623227062554" />
   </component>
 </project>
