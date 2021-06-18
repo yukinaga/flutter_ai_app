@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64ea7178-345d-45bf-b0cc-2fb622659799" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section_5/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/section_5/ios/Podfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section_5/main_mlkit.dart" beforeDir="false" afterPath="$PROJECT_DIR$/section_5/main_mlkit.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section_5/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/section_5/pubspec.yaml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/section_4/main_fb.dart" beforeDir="false" afterPath="$PROJECT_DIR$/section_4/main_fb.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_4/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/section_4/pubspec.yaml" afterDir="false" />
+>>>>>>> 64ed8860a0ab56b1d5d8e56ee7b65bc34e52a48f
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
