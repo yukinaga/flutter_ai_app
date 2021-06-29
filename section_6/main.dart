@@ -38,7 +38,7 @@ class MainForm extends StatefulWidget {
 class _MainFormState extends State<MainForm> {
   String _name ="";
   String _processingMessage = "";
-  final FaceDetector _faceDetector = FirebaseVision.instance.faceDetector(
+  final FaceDetector _faceDetector = GoogleMlKit.instance.faceDetector(
       FaceDetectorOptions(
           mode: FaceDetectorMode.accurate,
           enableLandmarks: true,
@@ -60,7 +60,7 @@ class _MainFormState extends State<MainForm> {
       if(faces.length > 0){
         String imagePath = "/images/" + Uuid().v1() + basename(pickedImage.path);
         Reference ref = FirebaseStorage.instance.ref().child(imagePath);
-        final TaskSnapshot storedImage = await ref.putFile(imageFile).onComplete;
+        final TaskSnapshot storedImage = await ref.putFile(imageFile);
 
           final String downloadUrl = await storedImage.ref.getDownloadURL();
           Face largestFace = findLargestFace(faces);
