@@ -38,7 +38,7 @@ class MainForm extends StatefulWidget {
 class _MainFormState extends State<MainForm> {
   String _name ="";
   String _processingMessage = "";
-  final FaceDetector _faceDetector = GoogleMlKit.instance.faceDetector(
+  final FaceDetector _faceDetector = GoogleMlKit.vision.faceDetector(
       FaceDetectorOptions(
           mode: FaceDetectorMode.accurate,
           enableLandmarks: true,
