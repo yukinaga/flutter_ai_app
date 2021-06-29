@@ -1,8 +1,7 @@
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:firebase_ml_vision/firebase_ml_vision.dart';
+import 'package:google_ml_kit/google_ml_kit.dart';
 
 void main() {
   runApp(MyApp());
@@ -29,10 +28,10 @@ class FaceFinder extends StatefulWidget {
 }
 
 class _FaceFinderState extends State<FaceFinder> {
-  File _imageFile;
-  Size _imageSize;
-  List<Face> _faceResults;
-  final FaceDetector _faceDetector = FirebaseVision.instance.faceDetector();
+  File? _imageFile;
+  Size? _imageSize;
+  List<Face>? _faceResults;
+  final FaceDetector _faceDetector = GoogleMlKit.vision.faceDetector();
   final ImagePicker _picker = ImagePicker();
 
   void _getImageAndFindFace(ImageSource imageSource) async {
@@ -41,8 +40,8 @@ class _FaceFinderState extends State<FaceFinder> {
       _imageSize = null;
     });
 
-    final PickedFile pickedImage = await _picker.getImage(source: imageSource);
-    final File imageFile = File(pickedImage.path);
+    final PickedFile? pickedImage = await _picker.getImage(source: imageSource);
+    final File? imageFile = File(pickedImage!.path);
 
     if (imageFile != null) {
       _getImageSize(imageFile);
@@ -73,7 +72,7 @@ class _FaceFinderState extends State<FaceFinder> {
       _faceResults = null;
     });
 
-    final FirebaseVisionImage visionImage = FirebaseVisionImage.fromFile(imageFile);
+    final InputImage visionImage = InputImage.fromFile(imageFile);
 
     List<Face> results = await _faceDetector.processImage(visionImage);
     setState(() {
@@ -86,7 +85,7 @@ class _FaceFinderState extends State<FaceFinder> {
       constraints: BoxConstraints.expand(),
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: Image.file(_imageFile).image,
+          image: Image.file(_imageFile!).image,
           fit: BoxFit.contain,
         ),
       ),
@@ -100,7 +99,7 @@ class _FaceFinderState extends State<FaceFinder> {
           ),
         ),
       )
-          : CustomPaint(painter: FaceBorderDrawer(_imageSize, _faceResults))
+          : CustomPaint(painter: FaceBorderDrawer(_imageSize!, _faceResults!))
     );
   }
 

@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
       stream: FirebaseFirestore.instance.collection("dogs").snapshots(),
       builder: (context, snapshot) {
         if (!snapshot.hasData) return LinearProgressIndicator();
-        return _buildList(snapshot.data.docs);
+        return _buildList(snapshot.data!.docs);
       },
     );
   }
@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Widget _buildListItem(DocumentSnapshot snap) {
-    Map<String, dynamic> data = snap.data();
+    final Map<String, dynamic> data = snap.data() as Map<String, dynamic>;
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 18.0, vertical:9.0),

@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp()); // 引数のWidgetが画面いっぱいに表示される
 
-List<String> generateHello({int start, int n}){
+List<String> generateHello({int? start, int? n}){
   var _hs = <String>[];
-  for (int i=start; i<start+n; i++){
+  for (int? i = start; i! < start! + n!; i++){
     _hs.add("Hello!" + i.toString());
   }
   return _hs;
