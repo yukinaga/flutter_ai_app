@@ -50,20 +50,20 @@ class _MainPageState extends State<MainPage> {
 
 class TabPage extends StatelessWidget {
 
-  final IconData icon;
-  final String title;
+  final IconData? icon;
+  final String? title;
 
-  const TabPage({Key key, this.icon, this.title}) : super(key: key);
+  const TabPage({Key? key, this.icon, this.title}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    final TextStyle textStyle = Theme.of(context).textTheme.headline4;  // 文字のスタイル
+    final TextStyle? textStyle = Theme.of(context).textTheme.headline4;  // 文字のスタイル
     return Center(
       child:Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Icon(icon, size: 72.0, color: textStyle.color),
-          Text(title, style: textStyle),
+          Icon(icon, size: 72.0, color: textStyle!.color),
+          Text(title!, style: textStyle),
         ],
       ),
     );

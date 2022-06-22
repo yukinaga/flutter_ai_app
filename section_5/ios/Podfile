@@ -1,6 +1,9 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '9.0'
 
+# Override Firebase SDK Version
+$FirebaseSDKVersion = '7.11.0'
+
 # CocoaPods analytics sends network stats synchronously affecting flutter build latency.
 ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 
@@ -77,7 +80,7 @@ target 'Runner' do
     pod name, :path => File.join(symlink, 'ios')
   end
 
-  pod 'Firebase/MLVisionFaceModel'  # 追記
+  pod 'GoogleMLKit/FaceDetection'  # 追記
 end
 
 post_install do |installer|
