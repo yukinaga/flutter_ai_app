@@ -33,7 +33,7 @@
 ## null-safety対応版 ※変更があるもののみ　　
 
 ## Dartの基礎1（null safety対応版）　　
-1-4. リスト、Set、Map: https://dartpad.dartlang.org/89679f169bcf0ff4fc4d82220c984d34　　
+1-4. リスト、Set、Map: https://dartpad.dartlang.org/89679f169bcf0ff4fc4d82220c984d34
 
 ## Dartの基礎2
 2-1. 関数: https://dartpad.dev/38278c3c478d6d7ec7cac9aa445211d2

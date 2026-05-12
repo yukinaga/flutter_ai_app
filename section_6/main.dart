@@ -1,5 +1,6 @@
 import 'dart:io';
-
+//google_ml_kitのをimport
+import 'package:google_ml_kit/google_ml_kit.dart';
 import 'package:intl/intl.dart';
 import 'package:uuid/uuid.dart';
 import 'package:path/path.dart';
@@ -7,7 +8,6 @@ import 'package:image_picker/image_picker.dart';
 
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_ml_vision/firebase_ml_vision.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
@@ -38,7 +38,7 @@ class MainForm extends StatefulWidget {
 class _MainFormState extends State<MainForm> {
   String _name ="";
   String _processingMessage = "";
-  final FaceDetector _faceDetector = FirebaseVision.instance.faceDetector(
+  final FaceDetector _faceDetector = GoogleMlKit.vision.faceDetector(
       FaceDetectorOptions(
           mode: FaceDetectorMode.accurate,
           enableLandmarks: true,
@@ -52,17 +52,16 @@ class _MainFormState extends State<MainForm> {
       _processingMessage = "Processing...";
     });
 
-    final PickedFile pickedImage = await _picker.getImage(source: imageSource);
-    final File imageFile = File(pickedImage.path);
+    final PickedFile? pickedImage = await _picker.getImage(source: imageSource);
+    final File imageFile = File(pickedImage!.path);
 
-    if (imageFile != null) {
-      final FirebaseVisionImage visionImage = FirebaseVisionImage.fromFile(imageFile);
+      final InputImage visionImage = InputImage.fromFile(imageFile);
       List<Face> faces = await _faceDetector.processImage(visionImage);
       if(faces.length > 0){
         String imagePath = "/images/" + Uuid().v1() + basename(pickedImage.path);
-        StorageReference ref = FirebaseStorage.instance.ref().child(imagePath);
-        final StorageTaskSnapshot storedImage = await ref.putFile(imageFile).onComplete;
-        if(storedImage.error == null){
+        Reference ref = FirebaseStorage.instance.ref().child(imagePath);
+        final TaskSnapshot storedImage = await ref.putFile(imageFile);
+
           final String downloadUrl = await storedImage.ref.getDownloadURL();
           Face largestFace = findLargestFace(faces);
 
@@ -76,9 +75,9 @@ class _MainFormState extends State<MainForm> {
               context,
               MaterialPageRoute(builder: (context) => TimelinePage(),)
           );
-        }
+
       }
-    }
+
 
     setState(() {
       _processingMessage = "";
@@ -165,7 +164,7 @@ class TimelinePage extends StatelessWidget {
       stream: FirebaseFirestore.instance.collection("smiles").orderBy("date", descending: true).limit(10).snapshots(),
       builder: (context, snapshot) {
         if (!snapshot.hasData) return LinearProgressIndicator();
-        return _buildList(context, snapshot.data.docs);
+        return _buildList(context, snapshot.data!.docs);
       },
     );
   }
@@ -181,7 +180,7 @@ class TimelinePage extends StatelessWidget {
   }
 
   Widget _buildListItem(BuildContext context, DocumentSnapshot snap) {
-    Map<String, dynamic> _data = snap.data();
+    final Map<String, dynamic> _data =snap.data()! as Map<String, dynamic>;
     DateTime _datetime = _data["date"].toDate();
     var _formatter = DateFormat("MM/dd HH:mm");
     String postDate = _formatter.format(_datetime);
